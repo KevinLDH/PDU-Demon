@@ -1,0 +1,250 @@
+*****
+Parameters:
+*****
+---
+Parameter: SLengthWidthHeight
+
+Index:	Length	width	height 
+	96 	48 	36
+
+Explanation: represent the length, width and height of bales
+---
+
+---
+Parameter: DDensity
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+Low Moisture	0.0000026	0.0000026	0.0000026	0.0000026
+Med Moisture	0.0000026	0.0000026	0.0000026	0.0000026
+High Moisture	0.0000026	0.0000026	0.0000026	0.0000026
+
+Explanation: the density of bales. Each row represents the Moisture level, and each column represents the biomass type.
+---
+
+---
+Parameter: TAverageDensity
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+Low Moisture	0.00000232	0.00000232	0.00000232	0.00000232
+Med Moisture	0.00000222	0.00000222	0.00000222	0.00000222
+High Moisture	0.00000215	0.00000215	0.00000215	0.00000215
+
+Explanation: average density in metering bin. Each row represents the Moisture level, and each column represents the biomass type.
+---
+
+---
+Parameter: DAverageDensityBlend
+
+Index:				Low Moisture	Med Moisture	High Moisture
+Storage of Corn stover 3-p	0.00001202	0.00001202	0.00001202
+Storage of Corn stover 2-p	0.00001202	0.00001202	0.00001202
+Storage of Switchgrass		0.00001202	0.00001202	0.00001202
+Storage of Miscanthus		0.00001202	0.00001202	0.00001202
+
+Explanation: average density in storage bins. Each row represents the storage of biomass type, and each column represents the moisture.
+---
+
+---
+Parameter: TEquipmentCapacity
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+Low Moisture	0.05625		0.05625		0.05625		0.05625
+Med Moisture	0.05625		0.05625		0.05625		0.05625
+High Moisture	0.05625		0.05625		0.05625		0.05625
+
+Explanation: capacity of first equipment (conveyor). Each row represents the Moisture level, and each column represents the biomass type.
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+Low Moisture	0.01875		0.01875		0.01875		0.01875
+Med Moisture	0.018727499	0.018727499	0.018727499	0.018727499
+High Moisture	0.00907499	0.009074999	0.009074999	0.009074999
+
+Explanation: capacity of second equipment (grinder 1). Each row represents the Moisture level, and each column represents the biomass type.
+
+*Note: Others data have same format, but they represent the capacity of the third equipment to the the pelleting machine.
+---
+
+---
+Parameter: DEquipmentCapacityBlend
+
+Index:				Low Moisture	Med Moisture	High Moisture
+1st equipment after pelleting	0.01875		0.01875		0.01875
+2nd equipment after pelleting	0.05625		0.05625		0.05625
+3rd equipment after pelleting	0.05625		0.05625		0.05625
+4th equipment after pelleting	0.01875		0.01875		0.01875
+5th equipment after pelleting	0.05625		0.05625		0.05625
+6th equipment after pelleting	0.05625		0.05625		0.05625
+7th equipment after pelleting	0.01875		0.01875		0.01875
+8th equipment after pelleting	0.05625		0.05625		0.05625
+9th equipment after pelleting	0.05625		0.05625		0.05625
+10th equipment after pelleting	0.01875		0.01875		0.01875 
+11th equipment after pelleting	0.05625		0.05625		0.05625
+12th equipment after pelleting	0.05625		0.05625		0.05625
+
+Explanation: capacity of equipment after pelleting machine. Each row represents the equipment, and each column represents the moisture.
+---
+
+---
+Parameter: DNumberOfBales
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+Low Moisture	2		2		2		2
+Med Moisture	4		4		4		4
+High Moisture	4		4		4		4
+
+Explanation: number of bales, also called the bale composition. Each row represents the moisture level, and each column represents the biomass type.
+---
+
+---
+Parameter: SDryMatterLoss
+
+Index:	Grinder 1	Grinder 2
+	0.015		0.005
+
+Explanation: represent the dry matter loss for grinders.
+---
+
+---
+Parameter: DBypassRatio
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+Low Moisture	0.499777778	0.499777778	0.499777778	0.499777778
+Med Moisture	0.4498		0.4498		0.4498		0.4498
+High Moisture	0.40482		0.40482		0.40482		0.40482
+
+Explanation: represent the bypass ratio. Each row represents the moisture level, and each column represents the biomass type.
+
+*Note: Please ignore this.
+---
+
+---
+Parameter: SMassCapacityInventory
+
+Index:	Metering bin
+	2.0
+
+Explanation: metering bin mass capacity
+---
+
+---
+Parameter: SMassCapacityInventoryBlend
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+		15.0 		15.0 		15.0 		15.0
+
+Explanation: storage bins mass capacity. Each column represents storage bins for biomass type.
+---
+
+---
+Parameter: SVolumnCapacityInventory
+
+Index:	Metering bin
+	869565.21
+
+Explanation: metering bin volume capacity
+---
+
+---
+Parameter: SVolumnCapacityInventoryBlend
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+		1469767.68 	1469767.68 	1469767.68 	1469767.68
+
+Explanation: storage bins volume capacity. Each column represents storage bins for biomass type.
+---
+
+---
+Parameter: DProcessingTimeOfBale
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+Low Moisture	24		24		24		24
+Med Moisture	38		38		38		38
+High Moisture	66		66		66		66
+
+Explanation: represent the processing time of a bale. Each row represents the moisture level, and each column represents the biomass type.
+---
+
+---
+Parameter: SAshContent
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+		0.122 		0.076 		0.064 		0.025
+
+Explanation: represent the average ash content. Each column represents the biomass type.
+
+*Note: Please ignore this.
+---
+
+---
+Parameter: SThermalContent
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+		0.57		0.57		0.57		0.57
+
+Explanation: represent the average thermal content. Each column represents the biomass type.
+
+*Note: Please ignore this.
+---
+
+---
+Parameter: SCarbohydrateContent
+
+Index:		Corn stover 3-p	Corn stover 2-p	Switchgrass	Miscanthus
+		0.574		0.603		0.666		0.817
+
+Explanation: represent the average carbohydrate content. Each column represents the biomass type.
+---
+
+---
+Parameter: STargetAshThermalCarbohydrate
+
+Index:		Ash	Thermal	Carbohydrate
+		0.074	0.57	0.591
+
+Explanation: represent the biochemical specification. Each column one specification.
+---
+
+---
+Parameter: SReactorUpperLowerBigM
+
+0.014167 0.01375 100
+
+*Note: Please ignore this.
+---
+
+*****
+Parameter updates if bale composition changes
+*****
+
+---
+Parameter defined in code
+---
+1. Update "biomassIndex" (line 240) to number of biomass type you have. e.g. if you have 5 types of biomass, then "biomassIndex = 5".
+
+2. Update "timeIndex" (line 242) to a proper time which can finish processing all bales. Note, if you use very large value, it will take much longer to solve the problem. e.g. 40 bales can be finished in 2400 time unit (each time unit is 0.25 minute).
+
+3. Create a sequence of processing all bales (such as sequences shown in line 277-340). Ensure the sequence includes all bales you have. Note: in sequence in line 279-280, small list ([0,2]) represents a bale with moisture level (0: low), and biomass type (2: switchgrass). Here, first element can take 0-2 (low to high moisture); second element can take 0-3 (corn stover 3-p to miscanthus). 
+
+---
+Parameter defined input file
+---
+*1. If there are different biomass types other than those I presented, you need to update all input information that related to biomass type (almost all data need to be updated since rows or columns are related to biomass type). Note: I suggest you create your own input style, but make sure the code can read them. If you update all these information manually, it will cost time. 
+
+e.g. parameter "TEquipmentCapacity"
+If you have another type of biomass such as "grass", you need to add one more column for that type of biomass.
+
+2. Update "DNumberOfBales" with the new bale composition.
+
+e.g. if you have 3 low, 3 med, and 4 high for all different types of biomass. Then,
+3 3 3 3
+3 3 3 3
+4 4 4 4
+
+
+
+
+
+
+
+
+
