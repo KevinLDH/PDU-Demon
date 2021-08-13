@@ -1,0 +1,25 @@
+******
+Graphs
+******
+------
+Figures:
+Reactor Feed Rate and Input Rate (0.25min, 1min, 5min)
+Metering Bin
+Storage Bins
+*Carbohydrate Content (For different biomass types)
+Pellet Equipment Flow Rate (0.25min, 5min)
+------
+To generate figures:
+1) if one biomass type:
+	1. Change input file direction
+	2. Change biomassIndex = 1 on line 16
+	3. Comment lines from 73 to 86
+	4. Comment lines from 278 to 280
+	5. Comment lines from 289 to 310
+2) if different biomass types:
+	1. Change input file direction
+	2. Change biomassIndex = n (n is the number of biomass) on line 16
+	3. Uncomment lines from 73 to 86
+	4. Uncomment lines from 278 to 280
+	5. Uncomment lines from 289 to 310
+------
